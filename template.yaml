@@ -28,7 +28,7 @@ spec:
           ui:options:
             rows: 5
         description:
-          title: Descriotion
+          title: Description
           type: string
           description: Description of the component
           ui:options:
