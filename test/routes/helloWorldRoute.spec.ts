@@ -25,7 +25,8 @@ describe('Hello World - Test GET path with parameters ', function () {
             .send({})
             .end((err: Error, res: any): void => {
                 expect(res.statusCode).to.be.equal(500);
-                expect(res.body.message).to.be.equal('request.query should have required property \'greeting\'');
+                console.log(res.body.message);
+                expect(res.body.message).to.be.equal('request/query must have required property \'greeting\'');
                 done();
             });
     });
@@ -53,7 +54,7 @@ describe('Hello World - Test POST path with no parameters ', function () {
             })
             .end((err: Error, res: any): void => {
                 expect(res.statusCode).to.be.equal(500);
-                expect(res.body.message).to.be.equal('request.body should have required property \'greeting\'');
+                expect(res.body.message).to.be.equal('request/body must have required property \'greeting\'');
                 done();
             });
     });

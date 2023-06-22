@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { TDebug } from '../log';
-const log = require('debug-level').log('app:src:controllers:getHelloWorld1')
+import { Log } from 'debug-level'
+const log = new Log('app:src:controllers:getHelloWorld1')
 
 const debug = new TDebug('app:src:controllers:getHelloWorld');
 
