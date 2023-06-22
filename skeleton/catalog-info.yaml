@@ -9,8 +9,8 @@ metadata:
     github.com/project-slug: ${{values.repoUrl}}
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: website
-  lifecycle: experimental
+  type: backend
+  lifecycle: production
   owner: ${{values.owner | dump}}
   providesApis:
     - ${{values.name | dump}}
