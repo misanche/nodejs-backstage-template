@@ -12,3 +12,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: ${{values.owner | dump}}
+  definition:
+    $text: https://github.com/misanche/nodejs-backstage-template/blob/master/skeleton/src/definition/swagger.yaml
