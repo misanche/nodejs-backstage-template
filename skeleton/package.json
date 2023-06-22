@@ -1,5 +1,5 @@
 {
-  "name": "nodets-sample",
+  "name": "${{values.name}}",
   "version": "1.0.0",
   "description": "",
   "main": "dist/src/index.js",
@@ -52,8 +52,8 @@
     "testOne": "TS_NODE_CACHE=false ./node_modules/.bin/mocha --require ts-node/register"
   },
   "engines": {
-    "node": ">6.11.0"
+    "node": ">18.16.0"
   },
-  "author": "RHAPPDEV",
+  "author": "${{values.owner}}",
   "license": "ISC"
 }
