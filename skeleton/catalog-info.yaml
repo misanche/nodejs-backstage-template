@@ -13,4 +13,4 @@ spec:
   lifecycle: experimental
   owner: ${{values.owner | dump}}
   providesApis:
-    - "${{values.name | dump}}"
+    - ${{values.name | dump}}
