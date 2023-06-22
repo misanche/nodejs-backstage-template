@@ -4,6 +4,7 @@
     "tslint:recommended"
   ],
   "rules": {
+    "quotemark": [true, "single"],
     "only-arrow-functions": [
       false
     ],
@@ -19,9 +20,7 @@
     "object-literal-key-quotes": [
       false
     ],
-    "max-classes-per-file": [
-      false
-    ],
+    "max-classes-per-file": false,
     "no-console": [
       false,
       "log"
@@ -33,7 +32,6 @@
       "allow-pascal-case",
       "allow-leading-underscore"
     ],
-    "no-unused-variable": true,
     "interface-name": [
       false
     ],
